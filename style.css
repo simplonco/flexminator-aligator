@@ -31,3 +31,9 @@
      text-align: center; 
      color: white; 
     }
+
+    #footer{
+    opacity: 0.6;
+    background: darkred;
+    height: 200px;
+}
