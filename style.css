@@ -17,11 +17,16 @@
         max-width: 1000px;      
     }
 
+img{
+    width:150px;
+    height:120px;
+    padding:10px;
+}
     /*-- our cleafix hack -- */ 
     .row:before, 
     .row:after {
         content:"";
-          display: table ;
+          display: table;
         clear:both;
     }
 
@@ -29,11 +34,10 @@
         float: left; 
         min-height: 1px; 
         width: 16.66%; 
-        padding: 12px; 
-        background-color: #FFDCDC;
+        
     }
 
-    .col-1{ width: 30%; }
+    .col-1{ width: 15%; }
     
     
 #footer{
