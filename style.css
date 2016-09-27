@@ -1,11 +1,7 @@
 .bandeau {
     height:20%;
 
-
-
 }
-
-
 
 
 .header {
@@ -33,7 +29,6 @@
         float: left; 
         min-height: 1px; 
         width: 16.66%; 
-        /*-- our gutter -- */
         padding: 12px; 
         background-color: #FFDCDC;
     }
@@ -41,17 +36,8 @@
     .col-1{ width: 30%; }
     
     
-    /*-- some extra column content styling --*/
-    [class*='col-'] > p {
-     background-color: #FFC2C2; 
-     padding: 0;
-     margin: 0;
-     text-align: center; 
-     color: white; 
-    }
-
-    #footer{
-    opacity: 0.6;
-    background: darkred;
-    height: 200px;
+#footer{
+opacity: 0.6;
+background: darkred;
+height: 200px;
 }
