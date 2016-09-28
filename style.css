@@ -19,20 +19,20 @@ font-family: 'Ruslan Display', cursive;
    background: rgba(255, 255, 255, 0.8);
    }
 
-
 .row {
 height:800px;
 background-color: white;
 display: flex;
-flex-flow: row wrap;
+flex-direction:row;
+flex-wrap:wrap;
 justify-content: space-between;
 align-items:center;
-align-content:center;
+/**align-content:center; ne pas oublier conflit**/
 }
 
 .row img{
 width:400px;
-height:240px;  
+height:240px;
 }
 
 #footer{
