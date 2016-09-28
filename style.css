@@ -1,25 +1,23 @@
-.bandeau {
-    margin-top:20px;
-    height:20px;
-    background-color: lightgreen;
-}
-
-.header{
-    width:100%;
-    height:400px;
-    background-color: white;
-    background-color: rgba(255, 255, 255, 0.8);
-}
-
-
 header {
-    width: 100%;
-    height: 400px;
-    background-image: url('Aligator.jpg');
-    background-size: cover;
-    border-top:1px, white;
+   display: flex;
+   flex-direction: column-reverse;  
+   width: 100%;
+   height: 400px;
+   background-image: url('Aligator.jpg');
+   background-size: cover;
+   border-top:1px, white;
 }
 
+h1 {
+text-align: center ;
+font-family: 'Ruslan Display', cursive;
+}
+
+.bandeau {
+   margin-top:20px;
+   height:20%;
+   background: rgba(255, 255, 255, 0.8);
+   }
 
 
 .row {
