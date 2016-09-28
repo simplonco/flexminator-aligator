@@ -36,7 +36,7 @@ height:240px;
 }
 
 #footer{
-background-color:rgba(98, 13, 14, 0.6); 
+background-color:rgba(98, 13, 14, 0.1); 
 height: 200px;
 display: flex;
 flex-direction: row;
